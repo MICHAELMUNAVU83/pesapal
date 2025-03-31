@@ -49,18 +49,22 @@ defmodule Pesapal do
   ```
 
   ## Configuration
-  You need to set the `api_base_url` in your application configuration.
+  You need to set the `api_base_url` in your application configuration , as well as your consumer key and consumer secret.
 
   You can set this in your config file:
   ```elixir
   config :pesapal,
-    api_base_url: "https://cybqa.pesapal.com/pesapalv3/api"
+    api_base_url: "https://cybqa.pesapal.com/pesapalv3/api",
+    consumer_key: "qkio1BGGYAXTu2JOfm7XSXNruoZsrqEW",
+    consumer_secret: "osGQ364R49cXKeOYSpaOnT++rHs="
   ```
 
   For Production:
   ```elixir
   config :pesapal,
-    api_base_url: "https://www.pesapal.com/pesapalv3/api"
+    api_base_url: "https://www.pesapal.com/pesapalv3/api",
+    consumer_key: "qkio1BGGYAXTu2JOfm7XSXNruoZsrqEW",
+    consumer_secret: "osGQ364R49cXKeOYSpaOnT++rHs="
   ```
 
   """
