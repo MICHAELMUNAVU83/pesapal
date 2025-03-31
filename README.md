@@ -62,7 +62,7 @@ ipn_id = ipn_response["ipn_id"]
 
 ## Documentation
 
-For more detailed information, please refer to the [hexdocs](https://hexdocs.pm/pesapal).
+For more detailed information, please refer to the [hexdocs](https://hex.pm/packages/pesapal/0.1.0).
 
 ## Author
 
