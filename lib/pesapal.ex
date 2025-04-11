@@ -62,7 +62,7 @@ defmodule Pesapal do
   For Production:
   ```elixir
   config :pesapal,
-    api_base_url: "https://www.pesapal.com/pesapalv3/api",
+    api_base_url: "https://pay.pesapal.com/v3/api",
     consumer_key: "qkio1BGGYAXTu2JOfm7XSXNruoZsrqEW",
     consumer_secret: "osGQ364R49cXKeOYSpaOnT++rHs="
   ```

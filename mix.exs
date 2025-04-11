@@ -5,7 +5,7 @@ defmodule Pesapal.MixProject do
     [
       app: :pesapal,
       description: "A simple Elixir wrapper for the Pesapal API for payment processing.",
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
